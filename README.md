@@ -34,5 +34,6 @@ npm install
 npm start
 ```
 
-## Author
+## Author
+
 I created this project to experiment with the creation of editor interfaces. I love customizable editors, so I'll keep maintaining this project until I add new features. 
