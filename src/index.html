@@ -8,15 +8,28 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/theme/base16-light.min.css">
    <link rel="stylesheet" href="../assets/styles.css">
+   <link rel="stylesheet" href="../assets/navbar/navbarStyles.css">
 </head>
 
 <body>
-   <div class="editor-container">
-      <textarea id="editor"></textarea>
+   <div class="container">
+      <div class="navbar">
+         <button id="save-button" title="Save">
+            <img src="../assets/navbar/icons-add-files.png">
+         </button>
+         <button id="open-button" title="Open">
+            <img src="../assets/navbar/icons-open-file.png">
+         </button>
+      </div>
+      <div class="editor-container">
+         <textarea id="editor"></textarea>
+      </div>
    </div>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/markdown/markdown.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.12/marked.min.js"></script>
    <script src="./components/editor/editor.js"></script>
+   <script src="./components/navbar/navbar.js"></script>
 </body>
 
 </html>
