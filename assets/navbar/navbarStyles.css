@@ -1,0 +1,46 @@
+.container {
+   display: flex;
+   height: 100vh;
+}
+
+.navbar {
+   width: 60px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   z-index: 1000;
+}
+
+.navbar button {
+   background: none;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+   transition: background-color 0.3s, color 0.3s;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.navbar button:hover {
+   background-color: rgb(205, 205, 205);
+   color: #f0f0f0;
+}
+
+.navbar img {
+   max-width: 61px;
+   max-height: 61px;
+   height: auto;
+   object-fit: contain;
+}
+
+.editor-container {
+   flex: 1;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 10px;
+}
